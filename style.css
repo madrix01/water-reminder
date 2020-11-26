@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    color: skyblue;
+}
+.bdy{
+    text-align: center;
+}
+
+/* .inp{
+    width: 69%;
+    background-color: black;
+    color: white;
+} */
+
+.inp{
+    padding: 5px 5px;
+    width: 100%;
+    /* margin: 8px 0px; */
+    border: 1px solid purple;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 20px;    
+    background-color: black;
+    color: skyblue;
+    text-align: center;
+    outline: none;
+}
+
+.inp:focus{
+    padding: 5px 5px;
+    /* margin: 8px 0px; */
+    border: 1px solid purple;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 20px;    
+    background-color: black;
+    color: skyblue;
+    text-align: center;
+    outline: none;
+}
+
+.btns{
+    padding: 15px 15px;
+    display: inline-block;
+    width: 100%;
+}

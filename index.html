@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <img src="./Assets/icon.png" alt="" class="logo">
+    <h1 class="title">WaterReminda</h1>
+    <div class="bdy">
+        <div class="col-auto">
+            <div class="input-group mb-2">
+            <input type="number" class="form-control inp" id="inlineFormInputGroup ti" placeholder="Time Interval" min=0>
+            <div class="input-group-prepend">
+                <div class="input-group-text inp">Min</div>
+            </div>
+            </div>
+        </div>
+        <div class="col-auto">
+            <label class="sr-only" for="inlineFormInputGroup">Username</label>
+            <div class="input-group mb-2">
+            <input type="number" class="form-control inp" id="inlineFormInputGroup tt" placeholder="Total Time" min=0>
+            <div class="input-group-prepend">
+                <div class="input-group-text inp">Min</div>
+            </div>
+            </div>
+        </div>
+        <div class="btns">
+            <input type="button" class="btn btn-outline-info btn-lg btn-block" value="start" id="start">
+            <input type="button" class="btn btn-outline-danger btn-lg btn-block" value="stop" id="stop">
+        </div>
+    </div>
+</body>
+</html>
